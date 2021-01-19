@@ -1,0 +1,4 @@
+for blah in range(0,101):
+    string = 'fizz' if blah % 3 == 0 else""
+    string += 'buzz' if blah % 5 == 0 else ""
+    print(string or blah)
